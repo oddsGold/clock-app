@@ -1,0 +1,48 @@
+.clocks {
+  text-align: center;
+  width: 100%;
+  .currentCity {
+    p:first-child {
+      padding-bottom: 30px;
+    }
+    p:last-child {
+      display: inline-block;
+      min-width: 150px;
+      padding: 5px;
+      border: 1px solid black;
+      border-radius: 3px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+  }
+  .timePiker{
+    display: inline-block;
+    min-width: 150px;
+    min-height: 40px;
+    padding: 5px;
+    border-radius: 3px;
+    box-sizing: content-box;
+    margin-top: 25px;
+    .react-time-picker {
+      width: 100%;
+      min-height: 30px;
+      font-weight: 700;
+    }
+  }
+  p.clock-label {
+    font-size: 12px;
+    color: #a08e8e;
+    text-align: left;
+  }
+  .btn {
+    width: 100%;
+    margin-top: 15px;
+    &:focus {
+      border: none;
+      outline: none;
+    }
+  }
+  .react-time-picker__clear-button {
+    display: none!important;
+  }
+}
